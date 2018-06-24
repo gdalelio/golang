@@ -22,6 +22,7 @@ func main() {
 
 			lessons.GoOS()
 		lessons.Deferer()
-	*/
-	lessons.Pointers()
+
+	lessons.Pointers()	*/
+	lessons.Struc(33, 22)
 }
