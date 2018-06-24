@@ -1,0 +1,9 @@
+#!/bin/bash
+#clear the scree
+clear
+#clean the build files
+go clean
+#execute build command
+go build
+#execute built file
+./learn-golang
