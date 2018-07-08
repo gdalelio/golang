@@ -25,6 +25,7 @@ func main() {
 	//
 	// lessons.Pointers()
 	// lessons.Struc(33, 22, 0)
-	lessons.Arrays()
+	// lessons.Arrays()
+	lessons.Slicing()
 
 }

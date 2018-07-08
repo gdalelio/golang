@@ -17,7 +17,7 @@ func Struc(x int, y int, z int) {
 	fmt.Println("The y value is: ", point.y)
 	fmt.Println("The z value is: ", point.z)
 	fmt.Printf("The vertex is located at: (%d, %d, %d)\n", point.x, point.y, point.z)
-	p := &point //pointer to point variable
+	p := &point //returns a pointer to point variable
 	p.x = 1e9   //replace the value of x with 1e9
 	fmt.Println(p.x)
 }
