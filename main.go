@@ -26,10 +26,7 @@ func main() {
 	// lessons.Deferer()
 	//
 	// lessons.Pointers()
-	// lessons.Struc(33, 22, 0)
-	// lessons.Arrays()
-	// lessons.Slicing()
-	//lessons.Channels()
+	// lessons.Struc()
+	// lessons.Channels()
 	lessons.BufferedConcurrency()
-
 }

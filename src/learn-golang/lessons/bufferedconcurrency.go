@@ -7,7 +7,7 @@ import (
 
 func makeRandoms(c chan int) {
 	//create a for loop that sends 1000 random numbers down a channel
-	for i := 0; i < 100; i++ {
+	for {
 		c <- rand.Intn(1000)
 	}
 }
